@@ -4,7 +4,7 @@ import Login from "./Login";
 import Register from "./Register";
 import Reset from "./Reset";
 import Dashboard from "./Dashboard";
-
+import CourseDetail from './CourseDetail'
 function App() {
   return (
     <div className="app">
@@ -14,6 +14,7 @@ function App() {
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/reset" element={<Reset />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
+           <Route exact path="/courseDetail" element={<CourseDetail />} />
         </Routes>
       </Router>
     </div>

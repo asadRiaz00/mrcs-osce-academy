@@ -18,13 +18,13 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDIXJ5YT7hoNbBFqK3TBcV41-TzIO-7n7w",
-  authDomain: "fir-auth-6edd8.firebaseapp.com",
-  projectId: "fir-auth-6edd8",
-  storageBucket: "fir-auth-6edd8.appspot.com",
-  messagingSenderId: "904760319835",
-  appId: "1:904760319835:web:44fd0d957f114b4e51447e",
-  measurementId: "G-Q4TYKH9GG7",
+  apiKey: "AIzaSyDnRnlhV68F1hOba967LsvN5b1VPziGdXA",
+  authDomain: "mrcs-osce-academy.firebaseapp.com",
+  projectId: "mrcs-osce-academy",
+  storageBucket: "mrcs-osce-academy.appspot.com",
+  messagingSenderId: "634782309536",
+  appId: "1:634782309536:web:0b2e9b61c85ff8645c7dc5",
+  measurementId: "G-X9VLCX52BD"
 };
 
 const app = initializeApp(firebaseConfig);
